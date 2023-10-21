@@ -28,7 +28,7 @@ function onTodoStatusChange(checkboxId, labelId) {
 
 function onDeleteTodo(todoId){
     let todoElement = document.getElementById(todoId);
-    todoElement.removeChild(todoElement);
+    todoItemsContainer.removeChild(todoElement);
 }
 
 function createAndAppendTodo(todo){
